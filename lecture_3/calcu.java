@@ -30,7 +30,7 @@ public class calcu {
     
         default: System.out.println("Invalid Command");
             break;
-    }
+         }
 
     }
 }
