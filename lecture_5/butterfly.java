@@ -9,7 +9,7 @@ public class butterfly {
             for(int j=1;j<=i;j++){
                 System.out.print("*");
             }
-            //space
+            //space 
             int space =2*(n-i);
             for(int j=1;j<=space;j++){
             System.out.print(" ");
@@ -23,7 +23,7 @@ public class butterfly {
             System.out.println();
         }
         //lower half
-
+  
         for (int i=n;i>=1;i--){
             //1nd part
            for(int j=1;j<=i;j++){
