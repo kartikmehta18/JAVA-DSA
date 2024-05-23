@@ -9,7 +9,6 @@ public class practise {
         System.out.println("Enter the rows n column");
         int rows =sc.nextInt();
         int cols =sc.nextInt();
-
         int [][] numbers = new int[rows] [cols];
 
         //input
@@ -18,7 +17,6 @@ public class practise {
                 numbers[i][j]= sc.nextInt();
             }
         }
-
         System.out.println("Enter the num you want to search");
         int num = sc.nextInt();
         for(int i=0;i<rows;i++) {
@@ -28,7 +26,6 @@ public class practise {
                 }
             }
         }
-        
         sc.close();
     }
  }
