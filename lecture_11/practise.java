@@ -23,6 +23,7 @@ public class practise {
             for(int j=0;j<cols;j++){
                 if(numbers[i][j] == num){
                     System.out.println("num found at locstion"+"("+i+", "+j+")");
+                    
                 }
             }
         }
