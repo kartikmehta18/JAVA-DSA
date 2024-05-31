@@ -15,7 +15,7 @@ public class fact {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter th fact u want");
+        System.out.println("Enter thefact u want");
          int f =sc.nextInt();
         factorial(f);
 }
