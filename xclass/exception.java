@@ -18,6 +18,14 @@ public class exception {
             System.out.println("the value of "+marks[in]+"/"+number+"is"+" "+marks[in]/number );
 
         }
+        catch(ArithmeticException e){
+            System.out.println("ArithmeticException occur!");
+            System.out.println(e);
+        }
+        catch(ArrayIndexOutOfBoundsException e){
+            System.out.println("ArrayIndexOutOfBoundsExceptionoccur!");
+            System.out.println(e);
+        }
         catch(Exception e){
             System.out.println("some acception occur!");
             System.out.println(e);
