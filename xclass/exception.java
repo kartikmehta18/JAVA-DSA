@@ -14,7 +14,7 @@ public class exception {
         System.out.println("enter the number for divide");
         int number =sc.nextInt();
         try{
-            System.out.println("The value of aarr index enterd id:"+marks[in]);
+            System.out.println(" The value of aarr index enterd id:"+marks[in]);
             System.out.println("the value of "+marks[in]+"/"+number+"is"+" "+marks[in]/number );
 
         }
