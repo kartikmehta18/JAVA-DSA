@@ -23,7 +23,7 @@ public class exception {
             System.out.println(e);
         }
         catch(ArrayIndexOutOfBoundsException e){
-            System.out.println("ArrayIndexOutOfBoundsExceptionoccur!");
+            System.out.println(" ArrayIndexOutOfBoundsExceptionoccur!");
             System.out.println(e);
         }
         catch(Exception e){
