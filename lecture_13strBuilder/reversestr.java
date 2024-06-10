@@ -9,8 +9,8 @@ public class reversestr {
             char frontChar = sb.charAt(front);
             char backChar = sb.charAt(back);
 
-            sb.setCharAt(front, backChar);
-            sb.setCharAt(back, frontChar);
+            sb.setCharAt(front,backChar);
+            sb.setCharAt(back,frontChar);
 
         }
         System.out.println(sb);
