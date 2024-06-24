@@ -29,9 +29,9 @@ String name3 =sc.next();
             if (name2 == name3){
                 System.out.println("strings are equal");
             }else{
-                System.out.println("string not equal");
+                System.out.println("string are not equal");
             }
-       String k= fullName.substring(3); //parsint
+       String k= fullName.substring(3); //parsing
 System.out.println(k);
     }
 }
