@@ -19,7 +19,7 @@ public class exception {
 
         }
         catch(ArithmeticException e){
-            System.out.println("ArithmeticException occur!");
+            System.out.println("ArithmeticException occur !");
             System.out.println(e);
         }
         catch(ArrayIndexOutOfBoundsException e){
@@ -27,7 +27,7 @@ public class exception {
             System.out.println(e);
         }
         catch(Exception e){
-            System.out.println("some acception occur!");
+            System.out.println("some acception occur !");
             System.out.println(e);
         }
     }
