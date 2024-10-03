@@ -16,6 +16,6 @@ public class table {
         System.out.println(n*9);
         System.out.println(n*10);
 
-
+//hey devs i am kartik mehta i am full stack dev 
     }
 }
