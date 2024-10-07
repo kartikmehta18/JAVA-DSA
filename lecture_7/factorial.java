@@ -22,7 +22,6 @@ public class factorial {
             return;
         }
         int factoriall =1;
-
         for(int i=a;i>=1;i--){
           factoriall=factoriall*i;
         }
