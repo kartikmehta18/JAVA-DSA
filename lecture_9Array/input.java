@@ -17,5 +17,11 @@ public class input {
         for(int i=0;i<size;i++){
             System.out.print(number[i]);
         }
+
+        //for each loop
+
+        for(int numm :number){
+            System.out.println(num+ ' ');
+        }
     }
 }
