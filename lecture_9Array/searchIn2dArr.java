@@ -30,7 +30,7 @@ public class searchIn2dArr {
     }
 
     static int[] max(int[][] arr) {
-
+ 
         int max = Integer.MIN_VALUE;
         for (int []i :arr) {
             for (int j :i ) {
