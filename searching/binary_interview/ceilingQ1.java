@@ -1,18 +1,19 @@
 package searching.binary_interview;
 
 public class ceilingQ1 {
-     public static void main(String[] args) {
-        int[] arr = { 2,3,5,9,14,16,18 };
+    public static void main(String[] args) {
+        int[] arr = { 2, 3, 5, 9, 14, 16, 18 };
         int target = 15;
         int ans = ceiling(arr, target);
         System.out.println(ans);
     }
-// smaller no. greater >= target
+
+    // smaller no. greater >= target
     static int ceiling(int[] arr, int target) {
 
-if(target > arr[arr.length-1]){
-    return -1;
-}
+        if (target > arr[arr.length - 1]) {
+            return -1;
+        }
 
         int start = 0;
         int end = arr.length - 1;
