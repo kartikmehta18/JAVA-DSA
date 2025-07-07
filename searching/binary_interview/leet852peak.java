@@ -2,7 +2,7 @@ package searching.binary_interview;
 
 public class leet852peak {
     public static void main(String[] args) {
-        int[] arr={0,1,};
+        int[] arr={0,1,0};
         int ans=peak(arr);
         System.out.println(ans);
     }
