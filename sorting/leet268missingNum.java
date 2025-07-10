@@ -12,6 +12,7 @@ public class leet268missingNum {
         int i = 0;
         while (i < arr.length) {
             int correct = arr[i];
+            
             // int correct = arr[i] - 1;
             if (arr[i] < arr.length && arr[i] != arr[correct]) {
                 swap(arr, i, correct);

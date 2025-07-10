@@ -1,7 +1,7 @@
 
 package searching.binary_interview;
 
-public class MountainLeet1095 {
+public class mountainLeet1095 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 3, 1};
         int target = 3;
