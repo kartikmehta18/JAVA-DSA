@@ -1,6 +1,5 @@
 package searching.binary_interview;
 
-import java.util.Scanner;
 
 public class leet744 {
 

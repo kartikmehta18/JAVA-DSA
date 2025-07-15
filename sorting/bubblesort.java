@@ -17,7 +17,7 @@ public class bubblesort {
         for (int i = 0; i < arr.length; i++) {
             swapped = false;
             // for each step , max item will come at the last repeatative index
-            for (int j = 1; j < arr.length - 1; j++) {
+            for (int j = 1; j < arr.length -i - 1; j++) {
                 // sawap if the items is smaller than the previous iteam
 
                 if (arr[j] < arr[j - 1]) {

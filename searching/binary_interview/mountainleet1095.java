@@ -1,18 +1,16 @@
 
 package searching.binary_interview;
 
-public class mountainLeet1095 {
+public class mountainleet1095 {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 3, 1};
+        int[] arr = { 1, 2, 3, 4, 5, 3, 1 };
         int target = 3;
-
-        MountainLeet1095 obj = new MountainLeet1095();
-        int result = obj.search(arr, target);
+        int result = search(arr, target);
         System.out.println("Index of target: " + result);
     }
 
     // Main search function
-    int search(int[] arr, int target) {
+    static int search(int[] arr, int target) {
         int peak = findPeakIndex(arr);
         int firstTry = binarySearch(arr, target, 0, peak, true);
 
@@ -24,7 +22,7 @@ public class mountainLeet1095 {
     }
 
     // Find peak index in mountain array
-    public int findPeakIndex(int[] arr) {
+    public static int findPeakIndex(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
 
@@ -43,7 +41,7 @@ public class mountainLeet1095 {
     }
 
     // Binary search with ascending/descending control
-    int binarySearch(int[] arr, int target, int start, int end, boolean ascending) {
+    static int binarySearch(int[] arr, int target, int start, int end, boolean ascending) {
         while (start <= end) {
             int mid = start + (end - start) / 2;
 
