@@ -12,6 +12,7 @@ public class r2 {
             return;
         }
         System.out.println("Jai Jinendra"+ n);
+        // tail recursion because it is last function call
         message(n+1);
     }
 }
