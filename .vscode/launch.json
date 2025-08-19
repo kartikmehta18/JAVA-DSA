@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nto1",
+            "request": "launch",
+            "mainClass": "recursion.nto1",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "lcm",
+            "request": "launch",
+            "mainClass": "searching.lcm",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "factors",
+            "request": "launch",
+            "mainClass": "searching.factors",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "newtonSqrt",
+            "request": "launch",
+            "mainClass": "searching.newtonSqrt",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "binarysquroot",
+            "request": "launch",
+            "mainClass": "searching.binarysquroot",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "seivepr",
+            "request": "launch",
+            "mainClass": "lecture15bit.seivepr",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "lecture15bit.prime",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
