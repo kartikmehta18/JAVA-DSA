@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "recursion.reverse",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "reveConcept",
+            "request": "launch",
+            "mainClass": "recursion.reveConcept",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "product",
+            "request": "launch",
+            "mainClass": "recursion.product",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "digitsum",
+            "request": "launch",
+            "mainClass": "recursion.digitsum",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "recursion.sum",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "fact",
+            "request": "launch",
+            "mainClass": "recursion.fact",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
             "name": "nto1",
             "request": "launch",
             "mainClass": "recursion.nto1",
