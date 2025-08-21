@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "leet1342Steps",
+            "request": "launch",
+            "mainClass": "recursion.leet1342Steps",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "countZero",
+            "request": "launch",
+            "mainClass": "recursion.countZero",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "palin",
+            "request": "launch",
+            "mainClass": "recursion.palin",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
             "name": "reverse",
             "request": "launch",
             "mainClass": "recursion.reverse",
