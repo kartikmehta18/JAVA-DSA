@@ -2,7 +2,7 @@ package recursion;
 
 public class leet1342Steps {
     public static void main(String[] args) {
-       System.out.println( noOfStep(2));
+       System.out.println( noOfStep(14));
     }
 
     public static int noOfStep(int num) {

@@ -6,7 +6,7 @@ public class lcm {
         int b = 18;
         System.out.println(gcdHcf(a, b));
         ;
-        System.out.println(lcm(a, b));
+        System.out.println(lcmn(a, b));
         ;
 
     }
@@ -19,7 +19,7 @@ public class lcm {
         return gcdHcf(b % a, a);
     }
 
-    static int lcm(int a, int b) {
+    static int lcmn(int a, int b) {
         return a * b / gcdHcf(a, b);
     }
 }

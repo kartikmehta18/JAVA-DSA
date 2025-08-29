@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "quickSort",
+            "request": "launch",
+            "mainClass": "sorting.quickSort",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "mergesort",
+            "request": "launch",
+            "mainClass": "sorting.mergesort",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "selection",
+            "request": "launch",
+            "mainClass": "recursion.selection",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "bubble",
+            "request": "launch",
+            "mainClass": "recursion.bubble",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "triangle",
+            "request": "launch",
+            "mainClass": "recursion.triangle",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "rotateBinarySearch",
+            "request": "launch",
+            "mainClass": "recursion.rotateBinarySearch",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "serching",
+            "request": "launch",
+            "mainClass": "recursion.serching",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
+            "name": "sorting",
+            "request": "launch",
+            "mainClass": "recursion.sorting",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
             "name": "leet1342Steps",
             "request": "launch",
             "mainClass": "recursion.leet1342Steps",
