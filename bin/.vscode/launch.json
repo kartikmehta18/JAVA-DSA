@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "streamChar",
+            "request": "launch",
+            "mainClass": "recursion.streamChar",
+            "projectName": "JAVA_d347af11"
+        },
+        {
+            "type": "java",
             "name": "quickSort",
             "request": "launch",
             "mainClass": "sorting.quickSort",
